@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Roboto: wght @500;700;900 & display=swap');
+
+:root{
+    font-size: 60.2%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: #0F0D13;
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+    gap: 4rem;
+    color:#E1E1E6;
+    font-size: 1.6rem;
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 4rem;
+    background-color: #2A2141;
+}
+
+aside article{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+
+.boxMusic{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:3rem;
+    
+}
+
+.cardMusic{
+    padding: 3rem;
+    background-color: #2A2141;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+}
+
+.cardMusic article div img{
+    width: 65%;
+    margin:0 auto;
+
+}
+
+
+.cardMusic article{
+    display: flex;
+    align-items: center;
+   
+}
+
+.btnBox{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
